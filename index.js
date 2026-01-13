@@ -60,7 +60,7 @@ app.post("/webhook", (req, res) => {
     users[senderId].step = 3;
   } else if (users[senderId].step === 3) {
     reply =
-      "Access confirmed. Here’s your private Telegram channel: <PASTE_TELEGRAM_LINK>";
+      "Access confirmed. Here’s your private Telegram channel: https://t.me/+Mg00Iw6hjahmZTNl ";
     users[senderId].step = 4;
   } else {
     reply = "Cool. Let me know when you’re ready to move.";
